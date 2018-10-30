@@ -1,0 +1,29 @@
+html {
+  height: 100%;
+}
+body {
+  font-family: '微软雅黑', Helvetica, Arial, '宋体', sans-serif;
+  color: #000;
+  -webkit-backface-visibility: hidden;
+  background: #ffffff;
+  height: 100%;
+  margin: 0 auto;
+}
+.clear:after {
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+.invisible {
+  visibility: hidden;
+}
+a {
+  color: inherit;
+}
